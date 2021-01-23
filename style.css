@@ -1,0 +1,26 @@
+button {
+    font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	justify-content: center;
+	background: #6603fc;
+	color: #fff;
+	border: 2px solid #6603fc;
+	border-radius: 5px;
+	padding: 15px;
+	width: 150px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	outline: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -12.5px;
+    margin-left: -70px;
+}
+
+button:hover {
+	background: #fff;
+	color: #6603fc;
+	border: 2px solid #6603fc;
+}
